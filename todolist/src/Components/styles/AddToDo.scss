@@ -1,0 +1,26 @@
+.addtodo {
+    position: absolute;
+    bottom: 100px;
+    left: 35%;
+    & input {
+        width: 70%;
+        font-size: 30px;
+        padding: 4px;
+        border-radius: 10px;
+        margin-right: 15px;
+    }
+
+    & input:focus {
+        background-color: rgb(215, 215, 215);
+    }
+
+    & button {
+        width: 70px;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+    & button:hover, button:focus{
+        background-color: rgb(215, 215, 215);
+    }
+}
