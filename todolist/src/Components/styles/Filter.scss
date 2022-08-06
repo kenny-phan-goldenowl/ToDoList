@@ -1,0 +1,17 @@
+.filter {
+    & h4 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    & .filter__type {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+    }
+
+    & .filter__type input {
+        margin-right: 10px;
+    }
+}
